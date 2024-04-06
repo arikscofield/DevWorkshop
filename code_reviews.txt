@@ -1,0 +1,38 @@
+1.
+
+    Similarities: 
+        1. Confirm adequate test coverage
+        2. Feedback should be actionable
+    Differences:
+        1. Don’t criticize the submitter, point out flaws in the code. (Microsoft)
+        2. Ensure that your code is maintainable (Yelp)
+
+According to Yelp code review guidelines:
+
+Code reviews should:
+
+1. Verify that the code is a correct and effective solution for the requirements at hand
+2. Ensure that your code is maintainable
+3. Increase shared knowledge of the codebase
+4. Sharpen your team’s skills through regular feedback
+5. Not be an onerous overhead on developer time
+
+2. Good example of a code review: https://codereview.stackexchange.com/questions/291445/simple-task-for-networking-programmers
+
+This is a good code review because it generally follows the 
+guidelines listed above, where he verifies that the 
+code is effective, correct and maintainable by saying 
+"However, its effect depends on the exact operating system you are using, 
+and it might not be possible to set a very low timeout."
+He also sharpens the temas skills by providing regular and
+actionable feedback to the programmer. By making his feedback 
+actionable he follows guideline 5. 
+
+3. Bad example of a code review: https://codereview.stackexchange.com/questions/291377/rate-limiting-webfilter
+
+The only answer gives 2 pieces of feedback and doesn't clarify much of anything
+else to fully help the programmer be as effective as possible. While 
+brevity is preferred the reviewer doesn't go into enough depth on necessary
+components of feedback such as ensuring the code meets the requirements, having regular feedback
+and doesn't provide much actionable help to the programmer. I believe this 
+review could be vastly improved if they added more actionable feedback.
